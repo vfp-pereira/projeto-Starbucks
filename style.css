@@ -95,3 +95,33 @@ width: 80px;
     clip-path: circle(600px at right 800px);
 
 }
+
+@media screen and (max-width: 400px) and (orientation: portrait) {
+    .logo{
+        width: 40px;
+        position: relative;
+        right: 80px;
+    }
+    
+    h2{
+        font-size: 20px;
+        position: absolute;
+        top: 80px;
+        right: 100px;
+        text-align: center;
+    }
+
+    span{
+        font-size: 30px;
+        
+    }
+
+    .circulo{
+        width: 120px;
+        height: 120px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+}
